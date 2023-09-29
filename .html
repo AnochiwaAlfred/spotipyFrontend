@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>☺️☺️☺️☺️☺️☺️☺️</title>
+    <link href="https://fonts.cdnfonts.com/css/catamaran" rel="stylesheet">
+                
+    <style>
+        section{
+            width: 80vw;
+            height: 80vh;
+            margin: 10vh auto;            
+            font-family: 'Catamaran', sans-serif;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left, .right{
+            height: 100%;
+            width: 49%;
+        }
+
+        .left{
+            background-color: rgba(250, 235, 215, 0.473);
+            border-radius: 10px;
+        }
+
+        .top{
+            width: 100%;
+            height: 39%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .bottom{
+            width: 100%;
+            margin-top: 3%;
+            background: url(https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg) orangered;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            height: 58%;
+        }
+
+
+        .top-left{
+            background: url(https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg) chocolate;
+            width:48%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+        }
+
+        .top-right{
+            background: url(https://images.pexels.com/photos/1767434/pexels-photo-1767434.jpeg) chocolate;
+            width:48%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+        }
+
+        .inner{
+            margin: 30px 50px;
+        }
+
+        h1{
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        .hover{
+            transition: all linear 0.3s;
+        }
+
+        .hover:hover{
+            transform: scale(1.03);
+            transition: all linear 0.3s;
+            box-shadow: 0px 0px 20px -10px black;
+        }
+    </style>
+</head>
+<body>
+
+    
+<section>
+    <div class="left hover">
+        <!-- That big div. set a width and height  -->
+        <div class="inner">
+            <h1>My name is Alfred</h1>
+            <p>This is a test box model</p>
+        </div>
+    </div>
+    <div class="right"  >
+        <!-- This div will have same height as the other one i.e .left -->
+        <div class="top">
+            <!-- Set 100% width and a height that combined with that of bottom will add up to the height of the .right class -->
+            <div class="top-left hover">
+                <!-- Set a 50% width so that it'd take half, the same with .top-right, height will be the same as container i.e. .top -->
+            </div>
+            <div class="top-right hover">
+                <!-- Set a 50% width so that it'd take half, the same with .top-left, height will be the same as container i.e. .top -->
+            </div>
+        </div>
+        <div class="bottom hover">
+            <!-- Set a height, and 100% width -->
+        </div>
+    </div>
+</section>
+</body>
+</html>
