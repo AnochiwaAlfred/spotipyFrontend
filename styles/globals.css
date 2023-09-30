@@ -1,0 +1,61 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"); */
+
+.body, body{
+    margin: 0px;
+    padding: 0px;
+    background: url(../public/bg1.jpg) center no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color:white;
+}
+
+.layout{
+    width: 95vw;
+    height: 95vh;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 0px 10px -3px ;
+    border-radius: 15px;
+}
+
+.horizontalRule{
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+
+/* ASIDE SECTION */
+
+#logoDiv{
+    width: 100%;
+    height: fit-content;
+}
+
+/* .asideLink{
+    width: 100%;
+    height: fit-content;
+    border: 1px solid red;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */ 
+@media (max-width: 700px) {
+    .layout{
+        display:none;
+    }
+} 
