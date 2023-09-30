@@ -37,4 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 # Frontend deployed [here](https://spotipyfrontend.vercel.app/)
-
+Or go to https://spotipyfrontend.vercel.app/
