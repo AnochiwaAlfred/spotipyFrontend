@@ -4,14 +4,36 @@ import React from 'react'
 
 const AsideLinks = () => {
   return (
-    <div className="m-3 asideLinks">
+    <ul className="m-3 p-0 asideLinks ">
+      <Link href="#" className=" asideLink text-white col-12" >
+         <li className=' py-1 ps-5 asideLinkListItem'>
+         <i class="bi bi-music-note-beamed" style={{color:"#0057e7"}}></i>
+         <span className=' m-0 ms-2 fs-75'>Tracks</span>
+         </li>
+      </Link> 
+      <Link href="#" className=" asideLink text-white col-12" >
+         <li className=' py-1 ps-5 asideLinkListItem'>
+         <i class="bi bi-disc" style={{color:"#d62d20"}}></i>
+         <span className=' m-0 ms-2 fs-75'>Albums</span>
+         </li>
+      </Link> 
+      <Link href="#" className=" asideLink text-white col-12" >
+         <li className=' py-1 ps-5 asideLinkListItem'>
+         <i class="bi bi-people-fill" style={{color:"#ffa700"}}></i>
+         <span className=' m-0 ms-2 fs-75'>Artists</span>
+         </li>
+      </Link> 
+      <Link href="#" className=" asideLink text-white col-12" >
+         <li className=' py-1 ps-5 asideLinkListItem'>
+         <i class="bi bi-music-note-list" style={{color:"#0F9D58"}}></i>
+         <span className=' m-0 ms-2 fs-75'>Playlists</span>
+         </li>
+      </Link> 
 
-    </div>
+
+    </ul>
   )
 }
 
 export default AsideLinks
 
-// <Link href="#" className="asideLink col-12 pe-5" >
-// <span className='col-12 border m-0 pe-5'>Home</span>
-// </Link> 

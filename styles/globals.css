@@ -1,4 +1,6 @@
 /* @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"); */
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"); */
+
 
 .body, body{
     margin: 0px;
@@ -16,6 +18,12 @@
     backdrop-filter: blur(4px);
     box-shadow: 0px 0px 10px -3px ;
     border-radius: 15px;
+    transition: all linear 0.3s;
+}
+
+.layout:hover{
+    box-shadow: 0px 0px 12px -3px;
+    transition: all linear 0.3s;
 }
 
 .horizontalRule{
@@ -32,13 +40,33 @@
     height: fit-content;
 }
 
-/* .asideLink{
+.asideLinks{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+.asideLink{
     width: 100%;
     height: fit-content;
-    border: 1px solid red;
-} */
+    text-decoration: none;
+} 
 
+.asideLinkListItem{
+    list-style-type: none;
+    width: 100%;
+    /* background-color: red; */
 
+}
+
+/* 
+
+#0057e7	(0,87,231)
+#d62d20	(214,45,32)
+#ffa700	(255,167,0)
+#ffffff	(255,255,255) 
+#0F9D58	(15,157,88) 
+
+*/
 
 
 

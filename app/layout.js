@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import Script from 'next/script'
 import Aside from '@/components/aside/Aside';
 import 'animate.css'
