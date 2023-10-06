@@ -1,0 +1,173 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"); */
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"); */
+/* @import url('https://fonts.cdnfonts.com/css/questrial'); */
+/* @import url('https://fonts.cdnfonts.com/css/quicksand'); */
+/* @import url('https://db.onlinewebfonts.com/c/21bfa7d415073b05f611f3d15588ffd8?family=Quicksand'); */
+/* @import url('https://db.onlinewebfonts.com/c/7800b61e9285dbd9d87245c1e0ed4b1d?family=Questrial-Regular'); */
+@import url('https://fonts.cdnfonts.com/css/ubuntu');
+
+
+*{
+    font-family:  'Ubuntu';
+    font-weight: 100;
+}
+
+.body, body{
+    margin: 0px;
+    padding: 0px;
+    background: url(../public/bg1.jpg) center no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color:white;
+}
+
+.layout{
+    width: 95vw;
+    height: 95vh;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 0px 10px -3px ;
+    border-radius: 15px;
+    transition: all linear 0.3s;
+}
+
+.layout:hover{
+    box-shadow: 0px 0px 12px -3px;
+    transition: all linear 0.3s;
+}
+
+.horizontalRule{
+    width: 90%;
+    margin: 0px auto;
+    color: grey;
+}
+
+.horizontalRuleFull{
+    margin: 0px auto;
+    color: grey;
+}
+
+.verticalRule{
+    /* height: 100%; */
+    /* width: fit-content; */
+    border-left: 1px solid grey;
+}
+
+
+/* ASIDE SECTION */
+
+#logoDiv{
+    width: 100%;
+    height: fit-content;
+}
+
+.asideLinks{
+    display: block;
+    /* background-color: rgba(0, 0, 0, 0.247); */
+    /* border: 1px solid rgba(34, 14, 0, 0.151); */
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 25px -3px  rgba(34, 14, 0, 0.219);
+
+}
+
+.asideLink{
+    width: 100%;
+    height: fit-content;
+    text-decoration: none;
+} 
+
+
+
+.asideLinkListItem{
+    list-style-type: none;
+    width: 100%;
+    /* background-color: red; */
+
+}
+
+.asideLinkListItem:hover{
+    background-color: rgba(0, 0, 0, 0.534);
+
+}
+
+
+/* ------------MAIN SECTION ------------------- */
+
+
+
+.mainDataSection{
+    height: 85%;
+}
+
+.itemContainer{
+    /* background-color: rgba(0, 0, 0, 0.247); */
+    /* border: 1px solid rgba(34, 14, 0, 0.151); */
+    height: fit-content;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 25px -3px  rgba(34, 14, 0, 0.034);
+    transition: all 0.5s linear;
+}
+
+.itemImageContainer{
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.itemTextStyle{
+    height: 50px;
+}
+
+
+.itemTextTitle{
+    font-size: 15px;
+    line-height: 15px;
+    height: fit-content;
+}
+
+.itemTextInfo{
+    font-size: 11px;
+    line-height: 11px;
+}
+
+
+
+
+
+.audioPlayer{
+    height: 15%;
+}
+
+/* 
+
+#0057e7	(0,87,231)
+#d62d20	(214,45,32)
+#ffa700	(255,167,0)
+#ffffff	(255,255,255) 
+#0F9D58	(15,157,88) 
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */ 
+@media (max-width: 700px) {
+    .layout{
+        display:none;
+    }
+} 
