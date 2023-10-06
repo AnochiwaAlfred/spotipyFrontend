@@ -2,7 +2,7 @@ import React from 'react'
 
 const MainDataSection = ({children}) => {
   return (
-    <div className='border p-2 rounded-top-3 rounded-start-0 col-12 mainDataSection'>{children}</div>
+    <div className=' py-2 px-3 rounded-top-3 rounded-start-0 col-12 mainDataSection'>{children}</div>
   )
 }
 
