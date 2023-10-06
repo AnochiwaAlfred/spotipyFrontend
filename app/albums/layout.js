@@ -2,9 +2,9 @@
 
 import React from 'react'
 
-const RootLayout = () => {
+const RootLayout = ({children}) => {
   return (
-    <div>RootLayout</div>
+    <div>{children}</div>
   )
 }
 
