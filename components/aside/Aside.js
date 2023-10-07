@@ -11,7 +11,7 @@ const Aside = () => {
     <div className='col-3'>
         <Link href="#" id='logoDiv' className='d-flex justify-content-center align-items-center'>
             <Image 
-                className='animate__animated animate__pulse animate__slower animate__infinite'
+                className='animate__animated animate__pulse animate__slower animate__infinite logo'
                 src='/logo2.png' 
                 width='168' 
                 height='105' 
