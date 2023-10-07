@@ -175,15 +175,19 @@
     background-repeat: no-repeat;
 }
 
-.itemTextStyle{
-    height: 50px;
+.itemText{
+    text-decoration: none;
+    color: inherit;
+}
+
+.itemText:hover{
+    text-decoration: underline;
 }
 
 
 .itemTextTitle{
     font-size: 0.9rem;
     line-height: 0.9rem;
-    height: fit-content;
 }
 
 .itemTextInfo{

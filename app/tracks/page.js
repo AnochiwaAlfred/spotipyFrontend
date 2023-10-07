@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-const page = () => {
+const Page = () => {
   const itemImageContainerStyle = {
     background: 'url(/square1.jpeg)',
   }
@@ -33,4 +33,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
