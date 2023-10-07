@@ -45,7 +45,7 @@ const Page = () => {
               <div href={`/artist/${artist.id}`} className='col-12 py-2 px-1'>
                 <Link href={`/artist/${artist.id}`} className='col-12 itemText'>
                   <p className='itemTextTitle p-0 my-1'>{artist.stageName}</p>
-                  <p className='itemTextInfo p-0 m-0 text-white-50'> {artist.stageName}</p>
+                  <p className='itemTextInfo p-0 m-0 text-white-50'> {artist.username}</p>
                 </Link>
               </div>
           </div>
